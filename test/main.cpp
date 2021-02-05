@@ -32,5 +32,8 @@ int main()
 	cout<<&s<<endl;
 	s="";
 	cout<<&s<<endl;
+
+        cout<<b+a<<endl;
+
 	return 0;
 }

@@ -48,7 +48,7 @@ class rtest
 
 		~rtest(){cout<<"destructor"<<endl;};
 
-                string getrtests(){return s;};
+                string getrtests() const {return s;};
 
 	private:
 			string s;
@@ -56,3 +56,5 @@ class rtest
 
 
 rtest returnrtest();
+
+string operator+(const rtest&,const rtest&);

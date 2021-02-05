@@ -22,3 +22,9 @@ rtest returnrtest()
 	//return {"hello,world!"};
 }
 
+string operator+(const rtest& s1,const rtest& s2)
+{
+	cout<<"operator+"<<endl;
+	return s1.getrtests()+"  "+s2.getrtests();
+}
+

@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include<typeinfo>
+#include<cmath>
 #define VALUE 5
 
 int main()
